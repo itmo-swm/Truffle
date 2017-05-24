@@ -17,6 +17,7 @@ contract SGBManager {
         uint current_waste_level; //in grams
         address owner_account; // since CommunityDAO sponsers it, the address should be of communityDAO
   }
+  
 
   // representation of transaction between user and sgb.
   struct Record{

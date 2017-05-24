@@ -1,7 +1,4 @@
 var config = require('./config');
-require('./mqtt-client');
-/*var telegram = require('./telegram');
-telegram.connect();*/
 
 module.exports = {
   build: {

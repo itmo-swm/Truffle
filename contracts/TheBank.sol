@@ -95,8 +95,11 @@ contract TheBank{
 
     }
     
-    /*It creates new PercCoin and sends it to the _receiver address */
-    /*Only the bank can create the new coins*/
+    /*
+        It creates new PercCoin and sends it to the _receiver address
+        Only the bank can create the new coins
+    */
+    
     function mintCoin(address _receiver, uint _amt) onlyBank returns (bool success){
         totalSupplyOfPercCoin += _amt ;
         balanceOf[msg.sender] += _amt;
